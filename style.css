@@ -1,0 +1,55 @@
+/* === Global Styles === */
+body {
+    font-family: 'Staatliches', sans-serif;
+    background-color: #d8d8d8; /* medium light gray */
+    color: #2a2a2a; /* dark charcoal for readability */
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    animation: fadeIn 1.2s ease-out;
+  }
+  
+  /* === Logo === */
+  img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    animation: logoPop 1s ease;
+  }
+  
+  /* === Headings and Text === */
+  h1 {
+    font-size: 3rem;
+    color: #4b2c20; /* warm iron brown */
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* === Links === */
+  a {
+    color: #8b0000; /* deep red like hot iron */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #cc5500; /* glowing forge orange */
+    text-decoration: underline;
+  }
+  
+  /* === Animations === */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes logoPop {
+    0%   { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
