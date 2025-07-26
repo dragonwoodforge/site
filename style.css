@@ -1,33 +1,27 @@
 /* === Global Styles === */
 body {
-    font-family: 'Staatliches', sans-serif;
-    background-color: #d8d8d8; /* medium light gray */
-    color: #2a2a2a; /* dark charcoal for readability */
+    font-family: 'MedievalSharp', cursive;
     text-align: center;
-    margin: 0;
-    padding: 2rem;
-    animation: fadeIn 1.2s ease-out;
+    padding: 6vw; /* Slightly increased */
+    background-color: #f0f0f0;
+    color: #222;
+    font-size: 1.15rem; /* Slightly larger base font size */
   }
   
-  /* === Logo === */
   img {
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 1.5rem;
-    animation: logoPop 1s ease;
+    max-width: 35vw; /* Slightly larger */
+    max-height: 220px;
+    margin-bottom: 1rem;
   }
   
-  /* === Headings and Text === */
   h1 {
-    font-size: 3rem;
-    color: #4b2c20; /* warm iron brown */
-    margin-bottom: 0.5rem;
+    font-size: clamp(2.5rem, 6vw, 3.5rem); /* Enlarged slightly */
+    margin-bottom: 0.75rem;
   }
   
   p {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: #333;
+    font-size: clamp(1.2rem, 3vw, 1.5rem); /* More readable size */
+    margin-bottom: 1.2rem;
   }
   
   /* === Links === */
@@ -52,4 +46,3 @@ body {
     0%   { transform: scale(0.8); opacity: 0; }
     100% { transform: scale(1); opacity: 1; }
   }
-  
