@@ -9,7 +9,7 @@ body {
   }
   
   img {
-    max-width: 35vw; /* Slightly larger */
+    max-width: 40vw; /* Slightly larger */
     max-height: 280px;
     margin-bottom: 1rem;
   }
