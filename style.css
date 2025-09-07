@@ -24,7 +24,7 @@ body {
 
 /* Logo */
 .logo {
-  width: 300px;
+  width: 320px;
   max-width: 80vw;
   margin-bottom: 1rem;
   animation: glow 4s infinite alternate;
@@ -88,4 +88,7 @@ body {
   45% { opacity: 0.8; }
   55% { opacity: 0.9; }
   65% { opacity: 0.7; }
+
+
+
 }
