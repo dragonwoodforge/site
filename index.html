@@ -1,50 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 📱 Key for mobile scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dragonwood Forge</title>
-  <style>
-    body {
-      font-family: 'MedievalSharp', sans-serif;
-      text-align: center;
-      padding: 5vw; /* scales padding based on screen size */
-      background-color: #f9f9f9;
-      color: #333;
-    }
-
-    img {
-      max-width: 40vw; /* scales image responsively */
-      max-height: 250px;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: clamp(2rem, 5vw, 3rem); /* scales with screen width */
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      font-size: clamp(1rem, 2.5vw, 1.25rem);
-      margin-bottom: 1rem;
-    }
-
-    a {
-      color: #aa0000;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-  <img src="logo.png" alt="Dragonwood Forge logo">
-  <h1>Dragonwood Forge</h1>
-  <p>Handcrafted blades and tools forged with care in Texas.</p>
-  <p>Coming soon to <a href="https://instagram.com" target="_blank">Instagram</a> & <a href="https://x.com" target="_blank">X</a></p>
+  <div class="container">
+    <img src="logo.png" alt="Dragonwood Forge Logo" class="logo">
+        <h1 class="tagline">Balanced by Nature. Forged by Hand.</h1>
+    <div class="coming-soon">⚒️ Coming Soon ⚒️</div>
+    <div class="socials">
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://x.com" target="_blank" aria-label="X">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a href="https://etsy.com" target="_blank" aria-label="Etsy">
+        <i class="fab fa-etsy"></i>
+      </a>
+    </div>
+  </div>
 </body>
 </html>
